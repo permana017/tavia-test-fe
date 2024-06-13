@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Description from "./components/Description";
 import Banner from "./components/Banner";
+import iconBuilding from "../src/assets/img/Icon-building.png";
 
 function App() {
   const [toggle, setToggle] = useState(true);
@@ -19,7 +20,7 @@ function App() {
               <div>
                 <div className="flex items-center gap-3">
                   <img
-                    src="/src/assets/img/Icon-building.png"
+                    src={iconBuilding}
                     alt="icon"
                     className="w-10 h-10 md:w-14 md:h-14 hover:opacity-95"
                   />
