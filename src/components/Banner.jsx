@@ -2,7 +2,7 @@ function Banner() {
   return (
     <div className="relative w-auto h-auto">
       <img
-        src="/public/img/banner.webp"
+        src="src/assets/img/banner.webp"
         alt="banner"
         className="scale-105 fill-indigo-100"
       />

@@ -19,7 +19,7 @@ function App() {
               <div>
                 <div className="flex items-center gap-3">
                   <img
-                    src="/public/img/Icon-building.png"
+                    src="/src/assets/img/Icon-building.png"
                     alt="icon"
                     className="w-10 h-10 md:w-14 md:h-14 hover:opacity-95"
                   />
